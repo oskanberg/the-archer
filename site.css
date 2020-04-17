@@ -11,8 +11,13 @@ div.overlay-menu {
     height: calc(100vh - 6rem);
     z-index: 1;
     opacity: 0;
-    transition: opacity .3s, visibility .3s;
-    transition-timing-function: ease-in-out;
+    
+    transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+    -ms-transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
+
     visibility: hidden;
     background-color: rgba(255, 255, 255, 0.95);
     display: flex;
@@ -24,7 +29,7 @@ div.overlay-menu {
 .overlay-menu>a {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
-    font-size: calc(25px + 4vw);
+    font-size: calc(25px + 2vw);
     text-align: center;
     text-decoration: none;
     color: #222;
@@ -60,10 +65,54 @@ nav>a {
     text-decoration: inherit;
 }
 
-nav>a.menu {
-    padding: 0 1rem;
-    font-size: 3rem;
-    line-height: 3rem;
+#menu-button {
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.menu-icon {
+    margin: 0 1rem;
+    width: 1rem;
+}
+
+.menu-icon::after, 
+.menu-icon::before, 
+.menu-icon div {
+    background-color: #444;
+    border-radius: 2px;
+    content: '';
+    display: block;
+    height: 2px;
+    margin: 2px 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.open > .menu-icon::before {
+    transform: translateY(2px) rotate(135deg);
+}
+
+.open > .menu-icon::after {
+    transform: translateY(-2px) rotate(-135deg);
+}
+
+.open > .menu-icon div {
+    transform: scale(0);
+}
+
+.search-icon {
+    cursor: pointer;
+    margin: 0 1rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+.search-icon path {
+    fill: #444;    
+    stroke-width: 1px;
+    stroke: #444;    
 }
 
 img.header-logo {
