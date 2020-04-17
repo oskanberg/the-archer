@@ -1,6 +1,7 @@
 let open = false;
 
-const toggleNav = () => {
+const toggleNav = e => {
+    e.preventDefault();
     let overlay = document.getElementsByClassName("overlay-menu")[0];
     open = !open;
     overlay.style.opacity = open ? '1.0' : '0';
