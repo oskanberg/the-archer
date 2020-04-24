@@ -21,8 +21,8 @@ fields:
 - type: list
   name: categories
   label: Category
-  description: This is the category of the article. If none match, please let Oliver
-    know and he will add it.
+  description: This is the category of the article. If none are suitable, please let
+    Oliver know and he can add a new one.
   config:
     use_select: true
     source:
