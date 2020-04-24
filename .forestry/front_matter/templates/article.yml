@@ -37,3 +37,5 @@ fields:
   name: header_image
   label: Header Image
   description: Optional. The image to use in the article listing.
+pages:
+- content/article/this-is-a-test-article.md
