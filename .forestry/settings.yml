@@ -11,7 +11,7 @@ sections:
   match: "**/*"
 upload_dir: content/article/image
 public_path: "/uploads"
-front_matter_path: content/article/image
+front_matter_path: article/image
 use_front_matter_path: true
 file_template: ":filename:"
 build:
