@@ -1,4 +1,4 @@
-baseURL = "https://archer.news"
+baseURL = "/"
 languageCode = "en-gb"
 title = "The Archer"
 
@@ -10,3 +10,6 @@ title = "The Archer"
 
 [taxonomies]
   category = "categories"
+
+[permalinks]
+  posts = "/:year/:month/:title/"
