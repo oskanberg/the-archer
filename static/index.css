@@ -1,0 +1,73 @@
+img.index-logo {
+    width: calc(100px + 40vw);
+    margin-bottom: calc(5vw);
+    max-width: 500px;
+}
+
+section.articles-group {
+    margin: 1rem 0;
+}
+
+div.article {
+    max-width: 50rem;
+    border-bottom: 1px solid #dadada;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+div.article>a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+h2.article-link {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: calc(18px + 2vw);
+    line-height: 1.3em;
+    text-align: left;
+    margin: 0.1rem 0;
+}
+
+img.article-image {
+    width: 100%;
+    padding: 0.3rem 0;
+}
+
+div.article>p.summary {
+    font-family: 'Mukta', sans-serif;
+    line-height: 1.4em;
+    font-size: calc(12px + 0.5vw);
+    margin-top: 0.5rem;
+}
+
+div.article>aside.meta {
+    text-transform: uppercase;
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+}
+
+aside.meta>a.category {
+    text-decoration: none;
+}
+
+aside.meta>a.category-business {
+    color: #56bb91;
+}
+
+aside.meta>a.category-comment {
+    color: #41a8e2;
+}
+
+aside.meta>a.category-breaking {
+    color: #c44747;
+}
+
+aside.meta>span.author {
+    border-left: 1px solid #dadada;
+    margin: 0.5em;
+    padding-left: 0.5em;
+    color: grey;
+}

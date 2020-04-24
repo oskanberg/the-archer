@@ -1,0 +1,58 @@
+p.summary {
+  font-family: "Mukta", sans-serif;
+  text-align: center;
+  line-height: 1.4em;
+  font-size: calc(12px + 1vw);
+  max-width: 50rem;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: calc(25px + 4vw);
+  line-height: 1.1em;
+  text-align: center;
+  margin-top: 0;
+}
+
+article {
+  border-top: 1px solid #dadada;
+  font-family: "PT Serif", serif;
+  max-width: 40rem;
+  margin: 0 auto;
+  text-align: left;
+  color: black;
+  line-height: 2rem;
+  font-size: 18px;
+}
+
+article img {
+  width: 100%;
+}
+
+article h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+aside.authors {
+  color: #41a8e2;
+  font-family: "Mukta", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  max-width: 40rem;
+  margin: 0 auto;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem;
+  line-height: 2rem;
+}
+
+span.ico {
+  font-size: 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+}

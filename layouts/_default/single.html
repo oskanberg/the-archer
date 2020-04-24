@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ .Title }} | The Archer</title>
+    <meta name="description" content="The Archer">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@500&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="/site.css">
+    <link rel="stylesheet" type="text/css" href="/article.css">
+</head>
+
+<body>
+    {{ partial "menu.html"}}
+    <section class="main">
+        <p class="summary">
+            {{ with (split .Params.Lede " ") }}
+            <strong>
+                {{ index . 0 }}
+                {{ index . 1 }}
+            </strong>
+
+            {{ delimit (after 2 . ) " " }}
+            {{ end }}
+        </p>
+        <h1>{{ .Title }}</h1>
+        <aside class="authors">{{ .Params.Author }} <span class="ico">➶</span>
+            {{ .Lastmod.Format "January 2, 2006" }}
+        </aside>
+        <article>
+            {{ .Content }}
+        </article>
+    </section>
+    <footer>
+        The Archer is a non-profit-making, non-political & non-religious newspaper, staffed entirely by volunteers.
+    </footer>
+    <script src="/menu.js"></script>
+</body>
+
+</html>

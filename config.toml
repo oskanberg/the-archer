@@ -1,0 +1,12 @@
+baseURL = "http://the-archer.co.uk/"
+languageCode = "en-gb"
+title = "The Archer"
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = [":git", ":fileModTime", "lastmod", "date", "publishDate"]
+  publishDate = ["publishDate", "date"]
+  expiryDate = ["expiryDate"]
+
+[taxonomies]
+  category = "categories"

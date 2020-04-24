@@ -1,0 +1,26 @@
+<div class="article">
+    <aside class="meta">
+        {{ with .Params.Categories }}
+        {{ $cat := index . 0}}
+        <a class="category category-{{ $cat }}"
+            href="{{ "/categories/" | relLangURL }}{{ $cat | urlize }}">{{ $cat }}</a>
+        {{ end }}
+        <span class="author">{{ .Params.Author }}</span>
+    </aside>
+    <a href="{{ .Permalink }}">
+        {{ with .Params.header_image }}
+        <img class="article-image" src="{{.}}" />
+        {{ end }}
+        <h2 class="article-link">{{ .Title }}</h2>
+    </a>
+    <p class="summary">
+        {{ with (split .Params.Lede " ") }}
+        <strong>
+            {{ index . 0 }}
+            {{ index . 1 }}
+        </strong>
+
+        {{ delimit (after 2 . ) " " }}
+        {{ end }}
+    </p>
+</div>
