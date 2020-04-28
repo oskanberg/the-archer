@@ -1,6 +1,7 @@
 ---
 title: "Bravo for the man on the bike"
 author: "Daphne Chamberlain"
+publishdate: "2020-04-12T08:00:00+00:00"
 lede: "Even in our strange new world, the Budgens delivery man on a bike with a trailer is still worth a second glance. The Archer caught up with him after Easter."
 categories: ["comment"]
 header_image: "/article/image/budgens-bike.jpg"

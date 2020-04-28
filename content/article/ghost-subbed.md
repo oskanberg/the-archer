@@ -1,7 +1,9 @@
 ---
 title: "Yikes! Ghost seen hovering over the High Road"
 author: "David Holt"
+publishdate: "2020-04-03T08:00:00+00:00"
 categories: ["breaking"]
+header_image: /article/image/corona-ghost.jpg
 draft: false
 ---
 

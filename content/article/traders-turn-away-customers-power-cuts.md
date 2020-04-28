@@ -1,6 +1,7 @@
 ---
 title: "Traders forced to turn away customers as power cuts hit"
 author: "John Wayne"
+publishdate: "2020-01-03T08:00:00+00:00"
 lede: "Power cuts struck restaurant owners and traders in East Finchley last month, forcing them to turn away customers on one of their busiest weekends of the year."
 categories: ["business"]
 draft: false

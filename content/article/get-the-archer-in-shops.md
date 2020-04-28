@@ -1,6 +1,7 @@
 ---
 title: "Pick up The Archer for free"
 author: "The Archer Team"
+publishdate: "2020-04-120T10:00:00+00:00"
 categories: ["breaking"]
 lede: "We have put a pause on home deliveries, but you can still get your copy."
 header_image: "/article/image/long-lane-supermarket.jpg"

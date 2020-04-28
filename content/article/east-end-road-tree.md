@@ -1,6 +1,7 @@
 ---
 title: "Is this the most beautiful tree in East Finchley?"
 author: "David Melsome"
+publishdate: "2020-04-09T08:00:00+00:00"
 lede: "This beautiful weeping cherry tree has lifted the spirits of anyone passing during the past two months."
 categories: ["comment"]
 header_image: "/article/image/east-end-tree.jpg"

@@ -21,11 +21,16 @@
         <img class="index-logo" src="/the-archer-name.png" />
 
         <section class="articles-group">
-            {{ range first 10 .Site.RegularPages }}
+            {{ range .Paginator.Pages }}
             {{ partial "article-summary.html" . }}
             {{ end }}
         </section>
+        {{ if .Paginator.HasNext }}
+        <a href="{{ .Paginator.Next.URL }}">See older articles</a>
+        {{ end }}
     </section>
+
+
     {{ partial "footer.html" }}
     <script src="./menu.js"></script>
 </body>

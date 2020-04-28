@@ -11,13 +11,11 @@ div.overlay-menu {
     height: calc(100vh - 6rem);
     z-index: 1;
     opacity: 0;
-    
     transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
     -moz-transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
     -webkit-transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
     -o-transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
     -ms-transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
-
     visibility: hidden;
     background-color: rgba(255, 255, 255, 0.95);
     display: flex;
@@ -78,9 +76,7 @@ nav>a {
     width: 1rem;
 }
 
-.menu-icon::after, 
-.menu-icon::before, 
-.menu-icon div {
+.menu-icon::after, .menu-icon::before, .menu-icon div {
     background-color: #444;
     border-radius: 2px;
     content: '';
@@ -90,15 +86,15 @@ nav>a {
     transition: all 0.2s ease-in-out;
 }
 
-.open > .menu-icon::before {
+.open>.menu-icon::before {
     transform: translateY(2px) rotate(135deg);
 }
 
-.open > .menu-icon::after {
+.open>.menu-icon::after {
     transform: translateY(-2px) rotate(-135deg);
 }
 
-.open > .menu-icon div {
+.open>.menu-icon div {
     transform: scale(0);
 }
 
@@ -110,9 +106,9 @@ nav>a {
 }
 
 .search-icon path {
-    fill: #444;    
+    fill: #444;
     stroke-width: 1px;
-    stroke: #444;    
+    stroke: #444;
 }
 
 img.header-logo {
@@ -128,7 +124,7 @@ nav>a.search {
 }
 
 section.main {
-    max-width: 75rem;
+    max-width: 60rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;

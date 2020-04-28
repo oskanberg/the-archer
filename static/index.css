@@ -6,13 +6,28 @@ img.index-logo {
 
 section.articles-group {
     margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 60rem;
 }
 
 div.article {
-    max-width: 50rem;
     border-bottom: 1px solid #dadada;
-    margin: 1rem 0;
     padding: 1rem 0;
+}
+
+@media only screen and (min-width: 60rem) {
+    div.article:not(:first-child) {
+        max-width: calc(min(100%, 60rem) / 2 - 1rem);
+    }
+    div.article:not(:first-child) img {
+        max-height: 19rem;
+    }
+    div.article:not(:first-child) h2.article-link {
+        font-size: calc(8px + 2vw);
+    }
 }
 
 div.article>a {
@@ -32,6 +47,9 @@ h2.article-link {
 img.article-image {
     width: 100%;
     padding: 0.3rem 0;
+    object-fit: cover;
+    object-position: bottom center;
+    max-height: 60vh;
 }
 
 div.article>p.summary {

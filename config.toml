@@ -1,6 +1,7 @@
 baseURL = "/"
 languageCode = "en-gb"
 title = "The Archer"
+paginate = 7
 
 [frontmatter]
   date = ["date", "publishDate", "lastmod"]

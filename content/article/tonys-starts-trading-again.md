@@ -1,7 +1,8 @@
 ---
 title: "Sigh of relief as Tony’s starts trading again"
 author: "David Gritten"
-lede: "It's been a tough time for Tony’s Continental, the family-run greengrocers' on the High Road."
+publishdate: "2020-04-19T08:00:00+00:00"
+lede: "It’s been a tough time for Tony’s Continental, the family-run greengrocers’ on the High Road. Various factors forced its closure in the first two weeks of April while its owners Chris Athanasiou and Michael Paphitis re-grouped and devised new business strategies for this year of coronavirus."
 categories: ["business"]
 header_image: "/article/image/tonys-reopening.jpg"
 draft: false

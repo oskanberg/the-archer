@@ -1,6 +1,7 @@
 ---
 title: "What does place mean to you?"
 author: "Abi Fuller"
+publishdate: "2020-01-12T07:00:00+00:00"
 lede: "As an art student at Middlesex University who has grown up in North London, I'm looking for volunteers to share their thoughts and experiences on the term 'place'."
 categories: ["comment"]
 header_image: "/article/image/place.png"
