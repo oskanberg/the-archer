@@ -13,6 +13,8 @@ fields:
   name: author
   label: Author
   description: The full name of the author of the piece.
+  config:
+    required: true
 - type: textarea
   name: lede
   label: Lede
