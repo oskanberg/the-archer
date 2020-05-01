@@ -39,5 +39,14 @@ fields:
   name: header_image
   label: Header Image
   description: Optional. The image to use in the article listing.
+- name: publishDate
+  type: datetime
+  label: Publish Date
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: true
 pages:
 - content/article/goggles-and-gloves-for-a-good-cause.md
