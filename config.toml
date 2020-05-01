@@ -3,12 +3,6 @@ languageCode = "en-gb"
 title = "The Archer"
 paginate = 7
 
-[frontmatter]
-  date = ["date", "publishDate", "lastmod"]
-  lastmod = [":git", ":fileModTime", "lastmod", "date", "publishDate"]
-  publishDate = ["publishDate", "date"]
-  expiryDate = ["expiryDate"]
-
 [taxonomies]
   category = "categories"
 
