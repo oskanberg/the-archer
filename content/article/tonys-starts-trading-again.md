@@ -1,20 +1,21 @@
 ---
-title: "Sigh of relief as Tony’s starts trading again"
-author: "David Gritten"
-publishdate: "2020-04-19T08:00:00+00:00"
-lede: "It’s been a tough time for Tony’s Continental, the family-run greengrocers’ on the High Road. Various factors forced its closure in the first two weeks of April while its owners Chris Athanasiou and Michael Paphitis re-grouped and devised new business strategies for this year of coronavirus."
-categories: ["business"]
+title: Sigh of relief as Tony’s starts trading again
+author: David Gritten
+publishdate: 2020-04-19T08:00:00+00:00
+lede: It’s been a tough time for Tony’s Continental, the family-run greengrocers’
+  on the High Road. Various factors forced its closure in the first two weeks of April
+  while its owners Chris Athanasiou and Michael Paphitis re-grouped and devised new
+  business strategies for this year of coronavirus.
+categories:
+- business
 header_image: "/article/image/tonys-reopening.jpg"
-draft: false
+
 ---
-
-
 It’s been a tough time for Tony’s Continental, the family-run greengrocers’ on the High Road. Various factors forced its closure in the first two weeks of April while its owners Chris Athanasiou and Michael Paphitis re-grouped and devised new business strategies for this year of coronavirus.
 
 ![Tony's continental shopfront](/article/image/tonys-reopening.jpg)
 
 Their shop has now re-opened, to the relief of its fiercely loyal local customers, and both men are looking to the future with cautious optimism. “We were burned out,” Michael says now of the recent closure. “We couldn’t hack it anymore.” Chris agrees: “It just wasn’t sustainable.”
-
 
 # Early reactions
 
@@ -25,7 +26,7 @@ So Tony’s had more customers than they could handle, at a time when, as Chris 
 
 At the same time, there was ‘panic buying’ at the markets, where food supplies were suddenly not coming in from Italy, Spain and Holland, because staff were self-isolating. The big chains bulk-bought everything they could, leaving less for independent traders like Tony’s to buy.
 
-“Suddenly we didn’t have enough flour, eggs, beans, loaves or pasta,” said Chris. “That was difficult for local people. And it’s the locals who are in here, day in and day out, who we want to help look after. Being part of this community [Chris’s father Tony originally opened the store in 1971] means we want to look after them. To us, they come first.”
+“Suddenly we didn’t have enough flour, eggs, beans, loaves or pasta,” said Chris. “That was difficult for local people. And it’s the locals who are in here, day in and day out, who we want to help look after. Being part of this community \[Chris’s father Tony originally opened the store in 1971\] means we want to look after them. To us, they come first.”
 
 # That everyday chat
 
