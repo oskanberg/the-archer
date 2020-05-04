@@ -6,6 +6,16 @@
     <meta charset="utf-8">
     <title>The Archer</title>
     <meta name="description" content="The Archer">
+
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:updated_time" content='{{ dateFormat "2006-01-02T15:04:05Z" .Lastmod.UTC | safeHTML }}'>
+    <meta property="article:published_time" content='{{ dateFormat "2006-01-02T15:04:05Z" .Date.UTC | safeHTML }}'>
+    <meta property="article:modified_time" content='{{ dateFormat "2006-01-02T15:04:05Z" .Lastmod.UTC | safeHTML }}'>
+
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165472769-1"></script>
     <script>
