@@ -24,6 +24,16 @@ article {
   color: black;
   line-height: 2rem;
   font-size: 18px;
+  text-align: justify;
+}
+
+article p:first-child:first-letter {
+  color: black;
+  float: left;
+  font-family: Georgia;
+  font-size: 4rem;
+  line-height: 2rem;
+  padding: 0.2em 0.1em 0 0.1em;
 }
 
 article img {
