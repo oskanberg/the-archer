@@ -12,4 +12,4 @@ Using Hugo allows the static site content to be generated from plain [Markdown](
 ## Deployment
 
 - This repository is hooked up to [Vercel](https://vercel.com/) to automatically deploy when updated: [https://the-archer.now.sh/](https://the-archer.now.sh/).
-This means that any article change will automatically appear on the live site (usually within 1m).
+This means that any article change (which can be committed to this repository via [Forestry](https://forestry.io/)) will automatically appear on the live site (usually within 1m).
